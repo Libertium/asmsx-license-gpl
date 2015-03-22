@@ -133,6 +133,7 @@ preprocessor1(char *input_name)
  text=(char*)malloc(256);
  name=(char*)malloc(256);
  tmpstr=(char*)malloc(256);
+ char *tmpstr_ = tmpstr;
 
 // Strings initialization
  text[0]=0;
@@ -164,7 +165,7 @@ preprocessor1(char *input_name)
 // Free string pointers
  free(text);
  free(name);
- free(tmpstr);
+ free(tmpstr_);
 
 // Done
  return 0;
