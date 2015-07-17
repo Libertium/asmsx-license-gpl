@@ -1,0 +1,1 @@
+asMSX is a cross-compiler originally created by PitPan (Eduardo Robsy Petrus, from Karoshicorp.com) and now released under GPL
